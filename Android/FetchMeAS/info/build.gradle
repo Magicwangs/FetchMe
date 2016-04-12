@@ -9,7 +9,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0-beta7'
+        classpath 'com.android.tools.build:gradle:2.1.0-alpha5'
         classpath 'com.github.dcendents:android-maven-plugin:1.0'
         classpath "org.jfrog.buildinfo:build-info-extractor-gradle:4.0.1"
 
@@ -58,7 +58,7 @@ publishing {
         }
     }
 }
-
+/**
 artifactory {
     contextUrl = 'http://cgfLinux:8081/artifactory'
     publish {
@@ -77,4 +77,4 @@ artifactory {
         }
     }
 }
-
+**/

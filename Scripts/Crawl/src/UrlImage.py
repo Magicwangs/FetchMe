@@ -35,16 +35,16 @@ def getImage(word):
     for ChineseName in ChineseFileName.readlines():
         ChineseNames.append(ChineseName.strip('\n').strip('\r'))
     
-    index = EnglishNames.index(str(word))
-    chineseWord = ChineseNames[index]
-    print EnglishNames, ChineseNames
-    print word, chineseWord
+    # index = EnglishNames.index(str(word))
+    # chineseWord = ChineseNames[index]
+    # print EnglishNames, ChineseNames
+    # print word, chineseWord
     
     EnglishFileName.close()
     ChineseFileName.close()
     for page_num in range(100):
         Page_num = page_num
-        url = 'http://image.baidu.com/search/wisemiddetail?tn=wisemiddetail&ie=utf8&word=' + chineseWord + '&pn='+str(Page_num)+'&size=big&fr=wiseresult&fmpage=result&pos=imglist'
+        url = 'http://image.baidu.com/search/wisemiddetail?tn=wisemiddetail&ie=utf8&word=' + word + '&pn='+str(Page_num)+'&size=big&fr=wiseresult&fmpage=result&pos=imglist'
 #         print url
         request = urllib2.Request(url)
         response = urllib2.urlopen(request)
@@ -79,4 +79,9 @@ def getImage(word):
                             else:
                                 print "OK"
 
-getImage('American Curl')
+wordFile = open("AllDogs.txt", "rb")
+for BreedPath in wordFile.readlines():
+	#print BreedPath
+	Breed = BreedPath.split(".")[1].strip()
+	print Breed
+	getImage(Breed)

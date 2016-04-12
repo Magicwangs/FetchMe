@@ -180,38 +180,38 @@ public class FragmentDrawer extends Fragment {
     /**
      * Created by chenguanfu on 3/30/2016.
      */
-    public static class OneFragment extends Fragment {
-        public OneFragment() {
-
-        }
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.fragment_one, container, false);
-        }
-    }
+//    public static class OneFragment extends Fragment {
+//        public OneFragment() {
+//
+//        }
+//
+//        @Override
+//        public void onCreate(Bundle savedInstanceState) {
+//            super.onCreate(savedInstanceState);
+//        }
+//
+//        @Override
+//        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+//            return inflater.inflate(R.layout.fragment_one, container, false);
+//        }
+//    }
 
     /**
      * Created by chenguanfu on 3/30/2016.
      */
-    public static class TwoFragment extends Fragment {
-        public TwoFragment() {
-
-        }
-
-        @Override
-        public void onCreate(Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-        }
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            return inflater.inflate(R.layout.fragment_two, container, false);
-        }
-    }
+//    public static class TwoFragment extends Fragment {
+//        public TwoFragment() {
+//
+//        }
+//
+//        @Override
+//        public void onCreate(Bundle savedInstanceState) {
+//            super.onCreate(savedInstanceState);
+//        }
+//
+//        @Override
+//        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+//            return inflater.inflate(R.layout.fragment_two, container, false);
+//        }
+//    }
 }

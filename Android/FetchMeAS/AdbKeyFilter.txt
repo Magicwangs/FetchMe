@@ -1,1 +1,1 @@
-D/MainApplication|D/MainActivity|D/LoginActivity|D/FetchMeActivity|D/DJServer
+D/MainApplication|D/MainActivity|D/LoginActivity|D/FetchMeActivity|D/DJServer|D/RVAdapter|D/CheeseDetailActivity
