@@ -1,2 +1,1 @@
-//include ':app', ':info', ':tabtest', ':navtest', ':fetchme', ':floatlabeltest', ':cardslisttest'
-include ':fetchme'
+include ':app', ':info', ':tabtest', ':navtest', ':fetchme'
