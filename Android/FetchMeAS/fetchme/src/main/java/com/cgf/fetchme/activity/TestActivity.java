@@ -9,6 +9,7 @@ import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -29,18 +30,26 @@ public class TestActivity extends AppCompatActivity {
     private static int REQ_1 = 1;
     private static int CROP_PICTURE = 2;
     private static int CHOOSE_PICTURE=3;
-
+    private Button testButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
         mImageView = (ImageView) findViewById(R.id.testiv);
+        testButton=(Button)findViewById(R.id.test_button);
+        testButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(), "Test", Toast.LENGTH_SHORT).show();
+            }
+        });
         Intent getIntent=getIntent();
         String flag=getIntent.getStringExtra("key");
         if(flag.equals("fromPic")) {
             // 创建拍照意图
-            mFilePath = "/mnt/sdcard"+ "/" + "猫狗大战";     //系统本地根目录下
+            //mFilePath =Environment.getExternalStorageDirectory().getPath()
+            mFilePath = "/mnt/sdcard"+ "/" + "FetchMe";     //系统本地根目录下
             File myFile=new File(mFilePath);
             if (!myFile.exists()) { myFile.mkdirs(); }
             Calendar t = Calendar.getInstance();
@@ -83,10 +92,7 @@ public class TestActivity extends AppCompatActivity {
             }
         }
     }
-    public void goResult(View view){
-        Toast.makeText(getApplicationContext(), "测试成功",
-                Toast.LENGTH_SHORT).show();
-    }
+
     private Uri getImageUri() {
         return Uri.fromFile(new File(mFilePath));
     }
@@ -132,7 +138,7 @@ public class TestActivity extends AppCompatActivity {
         intent.putExtra("noFaceDetection", true);
         intent.putExtra("return-data", true);
         //设置剪切的图片保存位置
-        mFilePath =Environment.getExternalStorageDirectory().getPath() + "/crop.png";
+        mFilePath ="/mnt/sdcard" + "/crop.png";
         Uri cropUri = Uri.fromFile(new File(mFilePath));
         intent.putExtra(MediaStore.EXTRA_OUTPUT,cropUri);
         startActivityForResult(intent, requestCode);
