@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TabTest</string>
+    <string name="fragment_one">One</string>
+    <string name="fragment_two">Two</string>
+</resources>

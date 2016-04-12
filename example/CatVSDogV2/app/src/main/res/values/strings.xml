@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">猫狗大战</string>
+    <string name="take_picture">拍 照</string>
+    <string name="Album">本 地</string>
+    <string name="Book">图鉴</string>
+    <string name="Test">测 试</string>
+    <string name="TestResult">这是测试结果！</string>
+
+    <string name="tab_menu_picure">识图</string>
+    <string name="tab_menu_book">图鉴</string>
+    <string name="tab_menu_setting">设置</string>
+    
+    <string name="search_hint">请在此点击搜索....</string>
+</resources>

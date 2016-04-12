@@ -1,0 +1,245 @@
+卷 新加卷 的文件夹 PATH 列表
+卷序列号为 0000000D A897:04B4
+G:.
+├─.git
+│  ├─hooks
+│  ├─info
+│  ├─logs
+│  │  └─refs
+│  │      ├─heads
+│  │      └─remotes
+│  │          └─origin
+│  ├─objects
+│  │  ├─info
+│  │  └─pack
+│  └─refs
+│      ├─heads
+│      ├─remotes
+│      │  └─origin
+│      └─tags
+├─Android
+│  ├─FetchMe
+│  │  ├─.gradle
+│  │  │  ├─2.2.1
+│  │  │  │  └─taskArtifacts
+│  │  │  └─2.4
+│  │  │      └─taskArtifacts
+│  │  ├─.idea
+│  │  │  └─copyright
+│  │  ├─assets
+│  │  ├─bin
+│  │  │  ├─classes
+│  │  │  │  └─com
+│  │  │  │      └─cgf
+│  │  │  │          └─fetchme
+│  │  │  ├─dexedLibs
+│  │  │  └─res
+│  │  │      └─crunch
+│  │  │          ├─drawable-hdpi
+│  │  │          ├─drawable-ldpi
+│  │  │          ├─drawable-mdpi
+│  │  │          ├─drawable-xhdpi
+│  │  │          └─drawable-xxhdpi
+│  │  ├─build
+│  │  │  ├─generated
+│  │  │  │  ├─res
+│  │  │  │  │  ├─generated
+│  │  │  │  │  ├─resValues
+│  │  │  │  │  └─rs
+│  │  │  │  │      ├─debug
+│  │  │  │  │      └─release
+│  │  │  │  └─source
+│  │  │  │      ├─aidl
+│  │  │  │      │  ├─debug
+│  │  │  │      │  └─release
+│  │  │  │      ├─buildConfig
+│  │  │  │      │  ├─debug
+│  │  │  │      │  │  └─com
+│  │  │  │      │  │      └─cgf
+│  │  │  │      │  │          └─fetchme
+│  │  │  │      │  └─release
+│  │  │  │      │      └─com
+│  │  │  │      │          └─cgf
+│  │  │  │      │              └─fetchme
+│  │  │  │      ├─r
+│  │  │  │      │  ├─debug
+│  │  │  │      │  │  └─com
+│  │  │  │      │  │      └─cgf
+│  │  │  │      │  │          └─fetchme
+│  │  │  │      │  └─release
+│  │  │  │      │      └─com
+│  │  │  │      │          └─cgf
+│  │  │  │      │              └─fetchme
+│  │  │  │      └─rs
+│  │  │  │          ├─debug
+│  │  │  │          └─release
+│  │  │  ├─intermediates
+│  │  │  │  ├─assets
+│  │  │  │  │  ├─debug
+│  │  │  │  │  └─release
+│  │  │  │  ├─classes
+│  │  │  │  │  ├─debug
+│  │  │  │  │  │  └─com
+│  │  │  │  │  │      └─cgf
+│  │  │  │  │  │          └─fetchme
+│  │  │  │  │  └─release
+│  │  │  │  │      └─com
+│  │  │  │  │          └─cgf
+│  │  │  │  │              └─fetchme
+│  │  │  │  ├─debug
+│  │  │  │  │  └─merging
+│  │  │  │  ├─dependency-cache
+│  │  │  │  │  ├─debug
+│  │  │  │  │  └─release
+│  │  │  │  ├─dex
+│  │  │  │  │  ├─debug
+│  │  │  │  │  └─release
+│  │  │  │  ├─dex-cache
+│  │  │  │  ├─incremental
+│  │  │  │  │  ├─aidl
+│  │  │  │  │  │  ├─debug
+│  │  │  │  │  │  └─release
+│  │  │  │  │  ├─mergeAssets
+│  │  │  │  │  │  ├─debug
+│  │  │  │  │  │  └─release
+│  │  │  │  │  ├─mergeResources
+│  │  │  │  │  │  ├─debug
+│  │  │  │  │  │  └─release
+│  │  │  │  │  ├─mergeResourcesdebug
+│  │  │  │  │  └─mergeResourcesrelease
+│  │  │  │  ├─lint
+│  │  │  │  ├─lint-cache
+│  │  │  │  ├─manifests
+│  │  │  │  │  └─full
+│  │  │  │  │      ├─debug
+│  │  │  │  │      └─release
+│  │  │  │  ├─pre-dexed
+│  │  │  │  │  ├─debug
+│  │  │  │  │  └─release
+│  │  │  │  ├─release
+│  │  │  │  │  └─merging
+│  │  │  │  ├─res
+│  │  │  │  │  ├─debug
+│  │  │  │  │  │  ├─drawable-hdpi
+│  │  │  │  │  │  ├─drawable-mdpi
+│  │  │  │  │  │  ├─drawable-xhdpi
+│  │  │  │  │  │  ├─drawable-xxhdpi
+│  │  │  │  │  │  ├─layout
+│  │  │  │  │  │  ├─menu
+│  │  │  │  │  │  ├─values
+│  │  │  │  │  │  ├─values-v11
+│  │  │  │  │  │  ├─values-v14
+│  │  │  │  │  │  └─values-w820dp
+│  │  │  │  │  ├─merged
+│  │  │  │  │  │  ├─debug
+│  │  │  │  │  │  │  ├─drawable-hdpi
+│  │  │  │  │  │  │  ├─drawable-ldpi
+│  │  │  │  │  │  │  ├─drawable-mdpi
+│  │  │  │  │  │  │  ├─drawable-xhdpi
+│  │  │  │  │  │  │  ├─drawable-xxhdpi
+│  │  │  │  │  │  │  ├─layout
+│  │  │  │  │  │  │  ├─menu
+│  │  │  │  │  │  │  ├─values
+│  │  │  │  │  │  │  ├─values-v11
+│  │  │  │  │  │  │  ├─values-v14
+│  │  │  │  │  │  │  └─values-w820dp
+│  │  │  │  │  │  └─release
+│  │  │  │  │  │      ├─drawable-hdpi
+│  │  │  │  │  │      ├─drawable-ldpi
+│  │  │  │  │  │      ├─drawable-mdpi
+│  │  │  │  │  │      ├─drawable-xhdpi
+│  │  │  │  │  │      ├─drawable-xxhdpi
+│  │  │  │  │  │      ├─layout
+│  │  │  │  │  │      ├─menu
+│  │  │  │  │  │      ├─values
+│  │  │  │  │  │      ├─values-v11
+│  │  │  │  │  │      ├─values-v14
+│  │  │  │  │  │      └─values-w820dp
+│  │  │  │  │  └─release
+│  │  │  │  │      ├─drawable-hdpi
+│  │  │  │  │      ├─drawable-mdpi
+│  │  │  │  │      ├─drawable-xhdpi
+│  │  │  │  │      ├─drawable-xxhdpi
+│  │  │  │  │      ├─layout
+│  │  │  │  │      ├─menu
+│  │  │  │  │      ├─values
+│  │  │  │  │      ├─values-v11
+│  │  │  │  │      ├─values-v14
+│  │  │  │  │      └─values-w820dp
+│  │  │  │  ├─resources
+│  │  │  │  ├─rs
+│  │  │  │  │  ├─debug
+│  │  │  │  │  │  ├─lib
+│  │  │  │  │  │  └─obj
+│  │  │  │  │  └─release
+│  │  │  │  │      ├─lib
+│  │  │  │  │      └─obj
+│  │  │  │  ├─symbols
+│  │  │  │  │  ├─debug
+│  │  │  │  │  └─release
+│  │  │  │  └─tmp
+│  │  │  │      └─dex
+│  │  │  │          ├─debug
+│  │  │  │          └─release
+│  │  │  ├─outputs
+│  │  │  │  ├─apk
+│  │  │  │  ├─lint-results_files
+│  │  │  │  └─logs
+│  │  │  ├─reports
+│  │  │  │  └─tests
+│  │  │  │      ├─debug
+│  │  │  │      │  ├─css
+│  │  │  │      │  └─js
+│  │  │  │      └─release
+│  │  │  │          ├─css
+│  │  │  │          └─js
+│  │  │  ├─test-results
+│  │  │  │  ├─binary
+│  │  │  │  │  ├─testDebug
+│  │  │  │  │  ├─testDebugUnitTest
+│  │  │  │  │  ├─testRelease
+│  │  │  │  │  └─testReleaseUnitTest
+│  │  │  │  ├─debug
+│  │  │  │  └─release
+│  │  │  └─tmp
+│  │  │      ├─compileDebugJava
+│  │  │      │  └─emptySourcePathRef
+│  │  │      ├─compileDebugJavaWithJavac
+│  │  │      │  └─emptySourcePathRef
+│  │  │      ├─compileReleaseJava
+│  │  │      │  └─emptySourcePathRef
+│  │  │      └─compileReleaseJavaWithJavac
+│  │  │          └─emptySourcePathRef
+│  │  ├─gen
+│  │  │  └─com
+│  │  │      └─cgf
+│  │  │          └─fetchme
+│  │  ├─gradle
+│  │  │  └─wrapper
+│  │  ├─libs
+│  │  ├─res
+│  │  │  ├─drawable-hdpi
+│  │  │  ├─drawable-ldpi
+│  │  │  ├─drawable-mdpi
+│  │  │  ├─drawable-xhdpi
+│  │  │  ├─drawable-xxhdpi
+│  │  │  ├─layout
+│  │  │  ├─menu
+│  │  │  ├─values
+│  │  │  ├─values-v11
+│  │  │  ├─values-v14
+│  │  │  └─values-w820dp
+│  │  └─src
+│  │      └─com
+│  │          └─cgf
+│  │              └─fetchme
+│  └─UI
+│      └─FetchMe
+│          └─res
+├─Scripts
+├─Tmp
+│  ├─bin
+│  └─build
+└─Windows
+    ├─FetchMe
+    └─UI

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FetchMeAS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Account</string>
+    <string name="user_pwd">Password</string>
+    <string name="admin_name">admin</string>
+    <string name="admin_pwd">admin</string>
+    <string name="app_description">Android drawer icon with material design animation</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+    <string name="tab_1">tab_1</string>
+    <string name="tab_2">tab_2</string>
+    <string name="tab_3">tab_3</string>
+</resources>

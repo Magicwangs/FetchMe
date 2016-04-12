@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookActivity">
+    <RelativeLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/bg_topbar">
+
+        <TextView
+            android:id="@+id/txt_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="猫狗识别"
+            android:textColor="@color/text_topbar"
+            android:textSize="18sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/div_white"/>
+    </RelativeLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_picture"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_picture"
+            android:text="@string/tab_menu_picure" />
+
+        <RadioButton
+            android:id="@+id/rb_book"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_book"
+            android:text="@string/tab_menu_book"/>
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/tab_menu_setting"
+            android:text="@string/tab_menu_setting"/>
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:id="@+id/div_tab_bar"
+        android:layout_above="@+id/rg_tab_bar"
+        android:background="@color/div_white"/>
+    <FrameLayout
+        android:id="@+id/ly_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/div_tab_bar"
+        android:layout_below="@id/ly_top_bar"></FrameLayout>
+</RelativeLayout>
